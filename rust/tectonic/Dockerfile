@@ -33,6 +33,7 @@ RUN apt update && apt install -y --no-install-recommends \
     ca-certificates \
     zlib1g-dev \
     curl \
+    make \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
